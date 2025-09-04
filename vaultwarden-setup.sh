@@ -41,7 +41,7 @@ services:
     volumes:
       - ./data:/data
     ports:
-      - "8080:80"   # Web-UI
+      - "8088:80"   # Web-UI
       - "3012:3012" # WebSocket
 EOF
 
