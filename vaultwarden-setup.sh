@@ -31,7 +31,7 @@ fi
 cat <<EOF > "$BASE_DIR/docker-compose.yml"
 services:
   bitwardenrs:
-    image: vaultwarden/server:$BITWARDENRS_VERSION
+    image: bitwardenrs/server:$BITWARDENRS_VERSION
     container_name: bitwardenrs
     restart: unless-stopped
     env_file: .env
