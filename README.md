@@ -35,7 +35,7 @@ Es eignet sich besonders für den Einsatz auf einem **Raspberry Pi 5** oder jede
 
 ```
 
-```bash
+bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/<BENUTZERNAME>/bitwardenrs-setup/main/bitwardenrs-setup.sh)"
 ````
 
